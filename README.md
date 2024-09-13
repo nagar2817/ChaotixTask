@@ -44,7 +44,7 @@
 Use the following `curl` command to generate images with multiple prompts:
 
 ```bash
-curl -X POST {replit_link}/api/generate-images/ -H "Content-Type: application/json" -d '{"prompts": ["A red flying dog", "A piano ninja", "A footballer kid", "A futuristic cityscape"]}'
+curl -X POST https://8fe571f5-2824-4ed3-bd9d-b029d962e998-00-3uelr8n5n58yt.pike.replit.dev/api/generate-images/ -H "Content-Type: application/json" -d '{"prompts": ["A red flying dog", "A piano ninja", "A footballer kid", "A futuristic cityscape"]}'
 ```
 
 ## API Endpoint
