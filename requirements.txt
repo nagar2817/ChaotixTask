@@ -1,0 +1,7 @@
+djangorestframework
+python-decouple
+celery
+requests
+psycopg2-binary
+dj-database-url
+redis
