@@ -1,8 +1,3 @@
-```markdown
-# Stability AI Django Application
-
-This Django application generates images in parallel using Stability AI’s Text-to-image generation API. The application uses Celery for parallel processing to manage asynchronous calls to the API.
-
 ## Prerequisites
 
 - Python 3.8+
@@ -15,8 +10,8 @@ This Django application generates images in parallel using Stability AI’s Text
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/stability-ai-django.git
-   cd stability-ai-django
+   git clone https://github.com/nagar2817/ChaotixTask.git
+   cd ChaotixTask
    ```
 
 2. **Create a Virtual Environment:**
