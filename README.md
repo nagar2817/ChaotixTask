@@ -25,6 +25,8 @@
    pip install -r requirements.txt
    ```
 
+4. **copy env**
+
 ## Starting the Workers
 
 1. **Start the Celery Worker:**
@@ -42,7 +44,7 @@
 Use the following `curl` command to generate images with multiple prompts:
 
 ```bash
-curl -X POST http://127.0.0.1:8000/api/generate-images/ -H "Content-Type: application/json" -d '{"prompts": ["A red flying dog", "A piano ninja", "A footballer kid", "A futuristic cityscape"]}'
+curl -X POST {replit_link}/api/generate-images/ -H "Content-Type: application/json" -d '{"prompts": ["A red flying dog", "A piano ninja", "A footballer kid", "A futuristic cityscape"]}'
 ```
 
 ## API Endpoint
